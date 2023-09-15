@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.16.26/js/uikit.min.js" integrity="sha512-lWWCpKrHdA46FXswEpZ9a+BLccthps/4Qh9s/fPbYOvb4TTDAYhcjvFEwgSr44ScjfFGjdE2rBaZ4QUx+PRhKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" /> -->
+
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Link-css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font-awesome -->
+	<link rel="stylesheet" href="font/css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+
+   
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <title>Главная</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+ 
+    <div class="wrapper">
+
+<?php
+include('nav.php');
+?>
+
+<header class="header">
+   <div class="header__container _container">
+       <div class="header__body">
+           <div class="header__logo">
+               <span>
+                     <img class="header__logo__img uk-animation-kenburns" src="img/main/logo.png" alt="">
+               </span>
+           </div>
+           <div class="header__left__option">
+                 <nav class="header__menu menu">
+                   <ul class="menu__list">
+                       <li class="menu__item">
+                           <a href="index.php" class="menu__link">главная</a>
+                       </li>
+                       <li class="menu__item">
+                           <a href="services.php" class="menu__link">вакансии</a>    
+                       </li>
+                       <li class="menu__item">
+                           <a href="consultation.php" class="menu__link">наши объекты</a>
+                       </li>
+                       <li class="menu__item">
+                           <a href="results.php" class="menu__link">наши партнеры</a>
+                       </li>
+                       <li class="menu__item">
+                           <a href="export.php" class="menu__link">сертификаты</a>
+                       </li>
+                       <li class="menu__item">
+                        <a href="export.php" class="menu__link">услуги</a>
+                    </li>
+                       <li class="menu__item">
+                           <a href="contact.php" class="menu__link">контакты</a>
+                       </li>
+                   </ul>
+                   <div class="burger__phone">
+                           <div class="burger__tele__out">
+                                 <a class="burger__phone__link" href="tel:+375291960803">+375291960803</a>
+                           </div> 
+                   </div>    
+                   <div class="burger__mail">
+                            <a class="burger__mail__link" href="mailto:info@.by">info@.by</a>
+                   </div>
+                 </nav>
+
+           </div>
+  
+         <div class="header__gadjet">
+
+           <!-- <div class="burger__tele">
+            <a href="https://www.facebook.com/">
+               <img class="viber" src="img/logo__social/facebook.png" alt="">
+            </a>
+           </div>
+           <div class="burger__tele">
+            <a href="https://ok.ru/group/">
+               <img class="viber" src="img/logo__social/ok.png" alt="">
+            </a>  
+           </div>
+           <div class="burger__tele">
+            <a href="https://www.instagram.com/">
+               <img class="viber" src="img/logo__social/instagram.png" alt="">
+            </a>
+           </div>
+           <div class="burger__tele">
+            <a href="https://vk.com/">
+               <img class="viber" src="img/logo__social/vk.png" alt="">
+            </a>
+           </div>
+           <div class="burger__tele">
+            <a href="https://www.tiktok.com/">
+               <img class="viber" src="img/logo__social/tik_tok.png" alt="">
+            </a>
+           </div> -->
+           <div class="header__tele">
+               <a class="link__tel" href="tel:+375 (17) 224-83-56">+375 (17) 224-83-56</a>
+           </div>
+           <!-- <div class="header__tele mail">
+                 <a class="link__tel" href="mailto:info@sezon365.by" >info@.by</a>
+           </div> -->
+         </div>
+
+         <div class="header__burger">
+           <span></span>
+        </div>
+ 
+       </div>
+   </div>
+</header>
+
+
+         <main class="page">
+            <section class="home">
+
+                <div class="swiper home-slider">
+             
+                   <div class="swiper-wrapper">
+             
+                      <section class="swiper-slide slide" style="background: url(img/main/hero-image-min.jpg) no-repeat;">
+                         <div class="home__content" data-aos="flip-left" data-aos-delay="150">
+                            <h3 class="home__title" >Строим Вашу мечту!</h3>
+                            <p class="home__p">ООО "ТЕЛЕКОМСВЯЗЬСТРОЙ"</p>
+                            <p class="home__p">Телекомсвязьстрой — компания с безупречной репутацией. Работаем для Вас с 2009 года!</p>
+                            <div class="home__a">
+                              <a href="services.php" class="btnn bt">наши услуги</a>
+                              <a href="services.php" class="btnn__right bt">контакты</a>
+                            </div>
+                           
+                         </div>
+                      </section>
+             
+                      <section class="swiper-slide slide" style="background: url(img/main/main__2jpg.jpg) no-repeat;">
+                         <div class="home__content">
+                            <h3 class="home__title">Строим Вашу мечту!</h3>
+                            <p class="home__p">ООО "ТЕЛЕКОМСВЯЗЬСТРОЙ"</p>
+                            <p class="home__p">Телекомсвязьстрой — компания с безупречной репутацией. Работаем для Вас с 2009 года!</p>
+                            <div class="home__a">
+                              <a href="services.php" class="btnn bt">наши услуги</a>
+                              <a href="services.php" class="btnn__right bt">контакты</a>
+                            </div>
+                         </div>
+                      </section>
+             
+                      <section class="swiper-slide slide" style="background: url(img/main/main__1.jpg) no-repeat;">
+                         <div class="home__content">
+                            <h3 class="home__title">Строим Вашу мечту!</h3>
+                            <p class="home__p">ООО "ТЕЛЕКОМСВЯЗЬСТРОЙ"</p>
+                            <p class="home__p">Телекомсвязьстрой — компания с безупречной репутацией. Работаем для Вас с 2009 года!</p>
+                            <div class="home__a">
+                              <a href="services.php" class="btnn bt">наши услуги</a>
+                              <a href="services.php" class="btnn__right bt">контакты</a>
+                            </div>
+                         </div>
+                      </section>
+             
+                   </div>
+             
+                   <!-- <div class="swiper-button-next"></div>
+                   <div class="swiper-button-prev"></div>   -->
+               </div>
+            </section>
+
+
+
+            <section class="section">
+               <div class="section__content">
+                   <div class="setcion__container">
+                       <div class="section__body">
+                           <h2 class="section__title__h2">Коротко о компании</h2>
+                           <h3 class="section__title">Телекомсвязьстрой</h3>
+                           <div class="section__text">
+                             ООО «Телекомсвязьстрой» было основано в 2009 году и успешно ведет свою деятельность более 10 лет в области строительства объектов по направлениям: общестроительные работы, пусконаладочные работы, монтажные работы, проектно-изыскательные работы, сантехнические работы, строительство внутренних и наружных сетей связи (PON, CBН, СКС, ЛВС, ЦОД, МСС); монтажа, наладки и технического обслуживания охранно-пожарной сигнализации.
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="section__image">
+                   <img src="img/main/section.png" alt="">
+               </div>
+           </section>
+
+
+           <section class="page__modal" >
+            <div class="page__modal__container _container">
+                <div class="modal__title">
+                    <h3 class="main-block__title__ex">Основные направления</h3>
+                </div>
+<div class="modal__body">
+                <div class="modal__item">
+
+                   
+
+                    <div class="imlog">
+                        <a href="">
+                            <img id="open_pop_up1"  class="treeimg"  src="img/main/main__11.jpg" alt="home">
+                        </a>
+                        
+                    </div>
+                    <div class="modal__subtitle">Монтаж внутренних и наружных сетей связи</div>
+                             <!-- <div class="modal__text">
+                                от 250 BYN
+                            </div> -->
+                </div>
+
+                <div class="modal__item">
+                    <div class="imlog">
+                        <a href="">
+                        <img id="open_pop_up2" class="treeimg"  src="img/main/main__8.jpg" alt="home">
+                    </a>
+                    </div>
+                    <div class="modal__subtitle">Выполнение электромонтажных работ</div>
+                             <!-- <div class="modal__text">
+                                от 250 BYN
+                            </div> -->
+                </div>
+
+                <div class="modal__item">
+                    <div class="imlog">
+                        <a href="">
+                        <img id="open_pop_up3" class="treeimg"  src="img/main/main__10.jpg" alt="home">
+                    </a>
+                    </div>
+                    <div class="modal__subtitle">
+                     Выполнение функции генерального подрядчика</div>
+                             <!-- <div class="modal__text">
+                                от 350 BYN
+                            </div> -->
+                </div>
+
+
+             
+
+                <div class="modal__item">
+                    <div class="imlog">
+                        <a href="">
+                        <img id="open_pop_up4" class="treeimg"  src="img/main/Rectangle 1 (1).jpg" alt="home">
+                    </a>
+                    </div>
+                    <div class="modal__subtitle">Общестроительные работы</div>
+                             <!-- <div class="modal__text">
+                                200 BYN
+                            </div> -->
+                </div>
+
+
+               
+
+                <div class="modal__item">
+                    <div class="imlog">
+                        <a href="">
+                        <img id="open_pop_up5" class="treeimg"  src="img/main/main__15.jpg" alt="home">
+                    </a>
+                    </div>
+                    <div class="modal__subtitle">Проектно-изыскательные работы</div>
+                             <!-- <div class="modal__text">
+                                от 250 BYN
+                            </div> -->
+                </div>
+
+              
+
+                <div class="modal__item">
+                    <div class="imlog">
+                        <a href="">
+                        <img id="open_pop_up6" class="treeimg"  src="img/main/main__7.jpg" alt="home">
+                    </a>
+                    </div>
+                    <div class="modal__subtitle">
+                     Сантехнические работы</div>
+                             <!-- <div class="modal__text" id="whoweare">
+                                от 200 BYN
+                            </div> -->
+                </div>
+            </div>
+        </div>  
+
+        </section>
+
+
+        <section class="section">
+         <div class="section__content">
+             <div class="setcion__containerr">
+                 <div class="section__bodyy ">
+                     <h2 class="section__title__h22">
+                         "ТЕЛЕКОМСВЯЗЬСТРОЙ"</h2>
+                     <h3 class="section__titlee">Почему стоит работать с нашей компанией</h3>
+                     <div class="section__textt">
+                        Мы никогда не останавливаемся на достигнутом, постоянно развиваемся и следим за передовыми технологиями в сфере строительства и всегда открыты к сотрудничеству.
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="section__image">
+             <img src="img/main/section__2.png" alt="">
+         </div>
+     </section>
+
+
+
+     <section class="page__modal" >
+      <div class="page__modal__container _container">
+          <div class="modal__title">
+              <h3 class="main-block__title__ex">Актуальные вакансии</h3>
+          </div>
+<div class="modal__body">
+          <div class="modal__item">
+
+             
+
+              <div class="imlog">
+                  <a href="">
+                      <img id="open_pop_up1"  class="treeimg"  src="img/main/section__3.png" alt="home">
+                  </a>
+                  
+              </div>
+              <!-- <div class="modal__subtitle">Монтаж внутренних и наружных сетей связи</div> -->
+                       <!-- <div class="modal__text">
+                          от 250 BYN
+                      </div> -->
+          </div>
+
+          <div class="modal__item">
+              <div class="imlog">
+                  <a href="">
+                  <img id="open_pop_up2" class="treeimg"  src="img/main/section__4.png" alt="home">
+              </a>
+              </div>
+              <!-- <div class="modal__subtitle">Выполнение электромонтажных работ</div> -->
+                       <!-- <div class="modal__text">
+                          от 250 BYN
+                      </div> -->
+          </div>
+
+          <div class="modal__item">
+              <div class="imlog">
+                  <a href="">
+                  <img id="open_pop_up3" class="treeimg"  src="img/main/section__5.png" alt="home">
+              </a>
+              </div>
+              <!-- <div class="modal__subtitle">
+               Выполнение функции генерального подрядчика</div> -->
+                       <!-- <div class="modal__text">
+                          от 350 BYN
+                      </div> -->
+          </div>
+
+
+       
+
+         
+
+
+         
+
+       
+
+        
+
+      </div>
+  </div>  
+
+     </section>
+
+
+
+
+  <section class="primer" >
+   <div class="title__slide">
+       <h3 class="primer__subtitle">Наши партнеры</h3>
+   </div>
+
+
+   <div class="slider__3">
+       <div class="slider__item__3">
+           <img src="img/логотипы/logo__1.jpg" alt="image__drawing">
+       </div>
+       <div class="slider__item__3">
+           <img src="img/логотипы/logo__2.png" alt="image__drawing">
+       </div>
+       <div class="slider__item__3">
+           <img src="img/логотипы/logo__3.jpg" alt="image__drawing">
+       </div>
+       <div class="slider__item__3">
+           <img src="img/логотипы/logo__4.png" alt="image__drawing">
+       </div>
+       <div class="slider__item__3">
+           <img src="img/логотипы/logo__5.png" alt="image__drawing">
+       </div>
+       <div class="slider__item__3">
+           <img src="img/логотипы/logo__6.png" alt="image__drawing">
+       </div>
+       <div class="slider__item__3">
+           <img src="img/логотипы/logo__1.jpg" alt="image__drawing">
+       </div>
+       <div class="slider__item__3">
+           <img src="img/логотипы/logo__2.png" alt="image__drawing">
+       </div>
+       <div class="slider__item__3">
+           <img src="img/логотипы/logo__3.jpg" alt="image__drawing">
+       </div>
+       <div class="slider__item__3">
+           <img src="img/логотипы/logo__4.png" alt="image__drawing">
+       </div>
+   </div>
+
+
+
+   <div class="slider__2">
+       <div class="slider__item__2">
+           <img src="img/логотипы/logo__1.jpg" alt="image__drawing">
+       </div>
+       <div class="slider__item__2">
+           <img src="img/логотипы/logo__2.png" alt="image__drawing">
+       </div>
+       <div class="slider__item__2">
+           <img src="img/логотипы/logo__3.jpg" alt="image__drawing">
+       </div>
+       <div class="slider__item__2">
+           <img src="img/логотипы/logo__4.png" alt="image__drawing">
+       </div>
+       <div class="slider__item__2">
+           <img src="img/логотипы/logo__5.png" alt="image__drawing">
+       </div>
+       <div class="slider__item__2">
+           <img src="img/логотипы/logo__6.png" alt="image__drawing">
+       </div>
+       <div class="slider__item__2">
+           <img src="img/логотипы/logo__1.jpg" alt="image__drawing">
+       </div>
+       <div class="slider__item__2">
+           <img src="img/логотипы/logo__2.png" alt="image__drawing">
+       </div>
+       <div class="slider__item__2">
+           <img src="img/логотипы/logo__3.jpg" alt="image__drawing">
+       </div>
+       <div class="slider__item__2">
+           <img src="img/логотипы/logo__4.png" alt="image__drawing">
+       </div>
+   </div>
+
+
+
+   
+
+</section>
+
+
+
+
+<section class="page__modall" >
+    
+        <div class="modall__title">
+            <h3 class="main-block__title__exl">Примеры работ, которые мы выполняем</h3>
+        </div>
+    <div class="modal__bodyl">
+        <div class="modal__iteml">
+
+           
+
+            <div class="imlogl">
+                <a href="">
+                    <img id="open_pop_up1"  class="treeimgl"  src="img/main/main__17.jpg" alt="home">
+                </a>
+                
+            </div>
+          
+        </div>
+
+        <div class="modal__iteml">
+            <div class="imlogl">
+                <a href="">
+                <img id="open_pop_up2" class="treeimgl"  src="img/main/main__11.jpg" alt="home">
+            </a>
+            </div>
+          
+        </div>
+
+        <div class="modal__iteml">
+            <div class="imlogl">
+                <a href="">
+                <img id="open_pop_up3" class="treeimgl"  src="img/main/main__19.jpg" alt="home">
+            </a>
+            </div>
+           
+        </div>
+
+
+        <div class="modal__iteml">
+            <div class="imlogl">
+                <a href="">
+                <img id="open_pop_up3" class="treeimgl"  src="img/main/main__20.jpg" alt="home">
+            </a>
+            </div>
+           
+        </div>
+    </div>
+
+
+</section>
+
+
+<div class="_container">
+    <div class="modall__title">
+         <h3 class="main-block__title__exl">Отзывы сотрудников</h3>
+    </div>
+    <div class="">
+        <img src="img/main/review__1.png" alt="">
+    </div>
+    <div class="">
+        <img src="img/main/review__1.png" alt="">
+    </div>
+</div>
+
+
+
+        
+
+
+
+
+          
+
+
+
+          
+
+
+
+
+
+
+   
+
+
+
+
+           
+              
+          
+
+
+
+
+          
+               
+
+         </main>
+
+
+         <?php
+         include('footer.php');
+         ?>
+        
+    </div>
+    <!-- Подключение скриптов---------------- -->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+AOS.init({
+   duration: 800,
+});
+
+</script>
+
+
+
+
+<!-- UIkit JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
+
+
+
+		  <script src="lib/jquery.js"></script>
+        <script src="js/slidder.js"></script>
+		<script src="js/slikkk.js"></script>
+        <script src="js/burger.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="js/slider.js"></script>
+		  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="js/accordion.js"></script>
+        <!-- <script src="js/pushka.js"></script>
+        <script src="js/pop__up__ik.js"></script>
+        <script src="js/pop__up__convecter.js"></script>
+        <script src="js/main.js"></script> -->
+</body>
+</html>
